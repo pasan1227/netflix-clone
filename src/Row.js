@@ -17,7 +17,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
         fetchData();
     }, [fetchUrl]);  //if [], run once when the row loads, and dont run again
 
-    console.log(movies);
+    //console.log(movies);
 
     return (
         <div className="row">
